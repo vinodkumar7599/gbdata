@@ -1,0 +1,99 @@
+.card2 {
+  width: 80%;
+ position: relative;
+  margin-left: 10%;
+  overflow-y: visible;
+}
+
+.itemBox2 {
+  /* box-shadow: 2px 2px 2px rgba(131, 132, 133, 0.87); */
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: end;
+  position: relative;
+}
+
+.itemImage2 {
+  width: 100%;
+  height: 11rem;
+  transition: transform 0.80s ease-in-out;
+}
+.mainItemBox2 {
+  margin: 0px;
+  /* height: 12rem; */
+  overflow: hidden;
+}
+.itemName2 {
+  color: rgb(245, 243, 242);
+  position: absolute;
+  bottom: 8px;
+  font-size: larger;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.itemCode2 {
+  color: rgb(247, 244, 244);
+  position: absolute;
+  bottom: -10px;
+  font-size: medium;
+  font-weight: 500;
+}
+.itemText {
+  position: absolute;
+  bottom: 200%;
+  box-sizing: border-box;
+  background: linear-gradient(transparent 20%, black);
+  /* background: radial-gradient(transparent, rgba(0, 0, 0, 0.925)); */
+  color: #fff;
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  border-radius: 2.5%;
+  /* transition: all 0.8s ease-in-out; */
+  text-align: center;
+  
+}
+.react-multiple-carousel__arrow{
+  top: 5rem;
+}
+/* .mainItemBox3{
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  width: 100%;
+  top: -35px;
+  position: absolute;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -500;
+} */
+.mainItemBox2:hover .itemText {
+  bottom: 0;
+}
+.mainItemBox2:hover .itemBox2 {
+  box-shadow: none;
+}
+.mainItemBox2:hover .itemImage2{
+    transform: scale(0.9);
+  }
+/* .mainItemBox2:hover + .mainItemBox3{
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+  transform: scale(1.05);
+
+} */
+
+@media screen and (max-width: 800px) {
+  .card2 {
+    width: 100%;
+    margin: 0% 2px;
+    box-sizing: border-box;
+    
+  }
+  .itemImage2 {
+    width: 95%;
+    margin-left: 3%;
+  }
+}

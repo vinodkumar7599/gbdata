@@ -1,0 +1,23 @@
+
+
+.aboutDiv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.aboutImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutImages{
+    width: 100%;
+    height: 500px;
+    
+}
+.our-foundation{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 25px;
+}

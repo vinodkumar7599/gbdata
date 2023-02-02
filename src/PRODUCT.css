@@ -1,0 +1,132 @@
+
+.headContaner{
+    width: 30rem;
+    height: 30rem;
+    box-sizing: border-box;
+    position: relative;
+    top: 8rem;
+    left: 15rem;
+    
+}
+.headContaner:hover{
+    border: 1px solid rgba(173, 163, 163, 0);
+}
+.imgProduct{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5%;
+
+}
+.preview{
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+    background-color: rgba(173, 163, 163, 0.579);
+    border-radius: 50%;
+    padding: 10px 10px 10px 12px;
+
+}
+
+
+.next{
+    position: absolute;
+    top: 15rem;
+    left: 26rem;
+    background-color: rgba(173, 163, 163, 0.579);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.headContaner2{
+    width: 30rem;
+    height: 30rem;
+    box-sizing: border-box;
+    position: relative;
+    top: -22rem;
+    left: 65rem;
+    
+}
+.headContaner2:hover{
+    border: 1px solid rgba(173, 163, 163, 0);
+}
+.imgProduct2{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5%;
+
+}
+.headContaner4{
+    width: 30rem;
+    height: 30rem;
+    box-sizing: border-box;
+    position: relative;
+    top: -44rem;
+    left: 65rem;
+    
+}
+.headContaner4:hover{
+    border: 1px solid rgba(173, 163, 163, 0);
+    width: 30.1rem;
+    height: 30.1rem;
+}
+.imgProduct4{
+    width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+    align-self: center;
+    margin-top: 80px;
+}
+.headContaner3{
+    width: 30rem;
+    height: 30rem;
+    box-sizing: border-box;
+    position: relative;
+    top: -15rem;
+    left: 15rem;
+    
+}
+.headContaner3:hover{
+    border: 1px solid rgba(173, 163, 163, 0);
+    width: 30.1rem;
+    height: 30.1rem;
+}
+.imgProduct3{
+    width: 20rem;
+    height: 20rem;
+    box-sizing: border-box;
+    align-self: center;
+    margin-top: 80px;
+}
+.allSlider{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgProduct5{
+    width: 240px;
+    height: 400px;
+    margin-left: 20px;
+}
+.preview1{
+    width: 30px;
+    height: 440px;
+    position: relative;
+    right: 114rem;
+    
+    background-color: rgba(0, 0, 0, 0.301);
+    padding:190px 2rem;
+}
+.next1{
+    width: 30px;
+    height: 440px;
+   
+    position: relative;
+    right: 9rem;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding:190px 2rem;
+}
